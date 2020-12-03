@@ -2,7 +2,7 @@
 
 This repository serves as my way to help me setup and maintain my Mac. It takes the effort out of installing everything manually.
 
-Based on the fantastic work of [Dries Vints](https://github.com/driesvints/dotfiles)
+Based on the fantastic work of [Dries Vints](https://github.com/driesvints/dotfiles).
 
 📖 Read the blog post: https://driesvints.com/blog/getting-started-with-dotfiles  
 📺 Watch the screencast on Laracasts: https://laracasts.com/series/guest-spotlight/episodes/1

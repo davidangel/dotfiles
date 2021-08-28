@@ -80,7 +80,7 @@ ZSH_CUSTOM=$DOTFILES
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git zsh-autosuggestions)
-
+source ~/.aliases
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -109,3 +109,15 @@ export LANG=en_US.UTF-8
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+export PATH=${PATH}:~/.composer/vendor/bin
+
+
+# Created by `userpath` on 2021-01-03 02:10:08
+export PATH="$PATH:/Users/david/.local/bin"
+
+# Created by `userpath` on 2021-01-03 02:10:15
+export PATH="$PATH:/Users/david/Library/Python/3.8/bin"
+
+arm() {
+  arch -x86_64 $@
+}
